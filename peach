@@ -1,0 +1,3 @@
+#! /bin/bash
+
+python "/usr/local/share/peach/src/main.py" "$@" || exit 1
