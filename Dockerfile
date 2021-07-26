@@ -2,9 +2,9 @@ FROM python:3.6-stretch
 
 RUN mkdir /usr/local/share/peach && \
     cd /usr/local/share/peach && \
-    wget https://github.com/hartwigmedical/peach/releases/download/v1.0/peach_1.0.tar.gz && \
-    tar -zxvf peach_1.0.tar.gz && \
-    pip install -r requirements.txt
+    wget https://github.com/hartwigmedical/peach/releases/download/v1.1/peach_1.1.tar.gz && \
+    tar -zxvf peach_1.1.tar.gz && \
+    pip install -r requirements.txt 
 
 COPY peach /usr/local/bin
 
